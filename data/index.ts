@@ -459,7 +459,7 @@ export const DATA = {
     location: {
       mapSrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.017947223557!2d-122.41941508468191!3d37.774929779759245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809cbb69f3ef%3A0x4c80b42c33b6a77d!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1715701234567!5m2!1sen!2sus",
-      address: "San Francisco, CA",
+      address: "Moyna, West Bengal, India",
     },
   },
   morphingTexts: {
@@ -495,6 +495,6 @@ export const DATA = {
         icon: "mdi:dribbble",
       },
     ],
-    services: ["UI/UX Design", "Web Development", "Mobile Apps", "Consulting"],
+    services: ["UI/UX Design", "Web Development", "DevOps Engineer"],
   },
 } as const;

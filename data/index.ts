@@ -115,17 +115,24 @@ export const DATA = {
     education: [
       {
         title: "Moyna Vivekananda Vidyamandir",
-        date: "2015 - 2023",
+        date: "2015 - 2021",
         icon: "mdi:palette",
         description:
-          "Focused on foundational art and visual design principles, which sparked my early interest in creative problem solving. Explored traditional media, digital illustration, and visual storytelling.",
+          "I learned basic art and design principles, which grew my interest in creative problem-solving. I explored drawing, digital illustration, and visual storytelling.",
+      },
+      {
+        title: "Moyna Vivekananda Vidyamandir",
+        date: "2021 - 2023",
+        icon: "mdi:school",
+        description:
+          "Earned a Bachelor's degree in Computer Science with a minor in Design. Gained strong skills in software development, user interface engineering, data structures, and human-computer interaction.",
       },
       {
         title: "Adamas University",
         date: "2023 - present",
-        icon: "mdi:school",
+        icon: "mdi:school-outline",
         description:
-          "Earned a Bachelor's degree in Computer Science with a minor in Design. Gained strong skills in software development, user interface engineering, data structures, and human-computer interaction.",
+          "Completed a Master's degree specializing in UX/UI Design and Front-End Development. Merged technical expertise with visual communication to design user-centered digital products and prototypes.",
       },
     ],
     experience: [

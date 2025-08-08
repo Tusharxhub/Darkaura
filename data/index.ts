@@ -105,7 +105,7 @@ export const DATA = {
       name: "Tushar kanti Dey",
       title: "Full Stack Developer",
       image:
-        "https://res.cloudinary.com/devq06psf/image/upload/v1750626859/chic_soba_apc1ht.png",
+        "https://res.cloudinary.com/dmlittccl/image/upload/v1754666144/Tushar_rzkbg0.jpg",
       description: [
         "I’m a creative full-stack developer with a passion for UI/UX design and writing clean, efficient code. I specialize in building beautiful, functional, and high-performance websites and web applications that seamlessly combine form and function.",
         "My approach is both technical and aesthetic — I enjoy turning complex problems into elegant user experiences. I work primarily with mWorking with modern tools like React, Next.js, Vite, and TailwindCSS, I transform complex ideas into intuitive, engaging user experiences. My approach blends technical precision with visual elegance, ensuring every project is fast, scalable, and user-friendly.",
@@ -125,37 +125,37 @@ export const DATA = {
         date: "2021 - 2023",
         icon: "mdi:school",
         description:
-          "Earned a Bachelor's degree in Computer Science with a minor in Design. Gained strong skills in software development, user interface engineering, data structures, and human-computer interaction.",
+          "I built a strong base in computer science and design, learning programming, user interface basics, data structures, and human-computer interaction.",
       },
       {
         title: "Adamas University",
         date: "2023 - present",
         icon: "mdi:school-outline",
         description:
-          "Completed a Master's degree specializing in UX/UI Design and Front-End Development. Merged technical expertise with visual communication to design user-centered digital products and prototypes.",
+          "Currently in college, I am specializing in UX/UI design and front-end development, combining technical skills with visual communication to create user-focused digital products and prototypes.",
       },
     ],
     experience: [
       {
-        title: "Creative Director",
-        date: "2018 - Present",
+        title: "UI/UX Designer",
+        date: "2021 - Present",
         icon: "mdi:briefcase",
         description:
-          "Lead creative and development teams to build digital experiences that combine innovation with user empathy. Oversee branding, UI/UX strategy, and development pipelines for tech startups and clients.",
+          "I lead UI/UX design efforts to create high-quality digital experiences using Figma and Tailwind, combining innovation with user empathy. I collaborate with teams to craft intuitive user flows, oversee branding, and shape design strategies for impactful projects.",
       },
       {
-        title: "Senior UX Engineer",
-        date: "2015 - 2018",
+        title: "Front-End Developer",
+        date: "2023 - present",
         icon: "mdi:monitor-dashboard",
         description:
-          "Designed and implemented high-fidelity web interfaces using React, Figma, and Tailwind. Collaborated cross-functionally with developers and designers to craft intuitive user flows and interactions.",
+          "I lead front-end development and UI/UX design to create high-quality digital experiences using React, Figma, and Tailwind. I focus on building intuitive user flows, implementing modern interfaces, and ensuring seamless collaboration between design and development.",
       },
       {
-        title: "Front-End Developer & Designer",
-        date: "2012 - 2015",
+        title: "Backend Developer",
+        date: "2024 - Present",
         icon: "mdi:code-tags",
         description:
-          "Developed responsive websites and applications with a focus on accessibility, visual aesthetics, and performance. Delivered pixel-perfect interfaces from wireframes to production code.",
+          "I work on backend development to build secure, efficient, and scalable systems, focusing on API design, database management, and server-side logic. I ensure seamless integration with front-end applications to deliver smooth, high-performance digital experiences.",
       },
     ],
     technologies: {

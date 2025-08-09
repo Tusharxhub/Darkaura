@@ -64,6 +64,7 @@ export const ContactMap: React.FC<ContactMapProps> = ({ src, className = "", tit
           <motion.iframe
             key="map"
             allowFullScreen
+            animate={{ opacity: isLoaded ? 1 : 0 }}
             aria-label={title}
             className={frameClass}
             initial={{ opacity: 0 }}
@@ -74,7 +75,6 @@ export const ContactMap: React.FC<ContactMapProps> = ({ src, className = "", tit
             style={{ visibility: isLoaded ? "visible" : "hidden" }}
             title={title}
             transition={{ duration: 0.5, ease: "easeOut" }}
-            animate={{ opacity: isLoaded ? 1 : 0 }}
             onError={handleError}
             onLoad={handleLoad}
           />

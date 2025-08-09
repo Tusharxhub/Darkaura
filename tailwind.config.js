@@ -1,4 +1,5 @@
 import { heroui } from "@heroui/react";
+import plugin from "tailwindcss/plugin";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -28,11 +29,27 @@ export default {
 					'100%': { backgroundPosition: '0% 50%' },
 				},
 			},
+			// Alias to support theme(fontSize.small) lookups coming from dependencies
+			fontSize: {
+				// Tailwind's default sm is 0.875rem; expose it also as "small" to fix warning:
+				// The utility `data-[has-label=true]:mt-[calc(theme(fontSize.small)_+_10px)]` contains an invalid theme value
+				small: '0.875rem',
+			},
 			screens: {
 				mdplus: "1040px",
 			}
 		},
 	},
 	darkMode: "class",
-	plugins: [heroui()],
+	plugins: [
+		heroui(),
+		// Option 3: custom utility to replace invalid calc(theme(fontSize.small)+10px)
+		plugin(({ addUtilities }) => {
+			addUtilities({
+				'.mt-label-fix': {
+					marginTop: 'calc(0.875rem + 10px)', // 14px + 10px = 24px
+				},
+			});
+		}),
+	],
 };

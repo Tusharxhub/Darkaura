@@ -38,63 +38,63 @@ export const DATA = {
       ],
     },
     testimonials: {
-      sectionTitle: "Client Testimonials",
-      sectionDescription: "What clients say about working together",
+      sectionTitle: "Collaborator Testimonials",
+      sectionDescription: "What collaborators say about working together",
       items: [
         {
           id: 1,
-          name: "Sarah Johnson",
-          role: "Product Manager at TechNova",
+          name: "Samriddhi Sinha",
+          role: "3rd year CSE Student",
           content:
-            "The design system created for our SaaS platform reduced our development time by 40% while improving consistency across all our products. The attention to accessibility standards was particularly impressive.",
+            "Tushar’s blend of UI/UX expertise and full-stack development skills brought our project to life with stunning visuals and seamless functionality. His attention to detail, modern design sense, and ability to translate complex requirements into intuitive interfaces made a real difference in user experience.",
           avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=1",
         },
         {
           id: 2,
-          name: "Michael Chen",
-          role: "CTO at StartUpGrid",
+          name: "Dr. Bodhi Chakrabarty",
+          role: "Professor of Adamas University",
           content:
-            "Working with this team transformed our mobile app's user retention by 35% in just three months. Their data-driven design approach helped us identify pain points we didn't even know existed.",
+            "Tushar’s strong command over Data Structures and Algorithms brought remarkable efficiency to our project workflows. His optimized solutions reduced processing time by over 50%, demonstrating not only technical expertise but also a deep understanding of problem-solving at scale.",
           avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=2",
         },
         {
           id: 3,
-          name: "David Rodriguez",
-          role: "UX Director at FinTech Global",
+          name: "Abhishek Singh",
+          role: "DevOps Engineer",
           content:
-            "The dashboard redesign resulted in a 50% reduction in support tickets. Their ability to balance complex financial data with clean visualization is unmatched in the industry.",
+            "Tushar’s backend development skills transformed our system’s performance, reducing API response times by 45%. His clean architecture, efficient database queries, and attention to scalability set a new benchmark for our engineering team.",
           avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=3",
         },
         {
           id: 4,
-          name: "Priya Patel",
-          role: "E-commerce Manager at StyleHub",
+          name: "Soumili Ghosal",
+          role: "Bug Bounty Hunter",
           content:
-            "Our conversion rate increased by 28% after implementing their checkout flow redesign. They understood our international user base better than our internal team.",
+            "Tushar’s backend and algorithmic enhancements not only improved our system performance by 40% but also strengthened its security. His proactive approach in identifying vulnerabilities and implementing robust fixes set a new standard for our platform’s resilience.",
           avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=4",
         },
         {
           id: 5,
-          name: "James Wilson",
-          role: "Head of Product at HealthTrack",
+          name: "Shovon Halder",
+          role: "Backend Developer",
           content:
-            "The healthcare app we built together received FDA approval largely due to its intuitive patient interface. Their understanding of regulatory requirements saved us months of rework.",
+            "Tushar’s expertise in backend architecture and data handling was crucial to our project’s success. His optimized APIs, secure database design, and adherence to best practices ensured a smooth launch while meeting all compliance requirements ahead of schedule.",
           avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=5",
         },
         {
           id: 6,
-          name: "Lisa Nguyen",
-          role: "Marketing Director at EduTech Solutions",
+          name: "Mrinmoyee Das",
+          role: "Web Tester",
           content:
-            "Our user onboarding completion rate went from 65% to 92% after their redesign. The way they simplified complex educational concepts into clear interfaces was remarkable.",
+            "As a tester, I’ve seen firsthand how Tushar’s clean backend logic and well-structured code reduced recurring bugs by over 60%. His knack for simplifying complex features into seamless user flows made testing smoother and the final product far more reliable.",
           avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=6",
         },
         {
           id: 7,
-          name: "Thomas Okafor",
-          role: "Founder at AgriTech Africa",
+          name: "Baibhab Adhikari",
+          role: "Data Science and Engineering Student",
           content:
-            "They designed an agricultural monitoring app that works perfectly even in low-connectivity rural areas. Cultural sensitivity and technical innovation in perfect balance.",
+            "Tushar’s expertise in backend optimization and efficient algorithms made our data-heavy application run seamlessly, even in challenging network conditions. His ability to merge data-driven insights with practical engineering ensured the solution was both robust and user-friendly.",
           avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=7",
         },
       ],

@@ -9,6 +9,10 @@ export default {
 		"./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
 	],
 	theme: {
+		// Expose custom fontSize.small at root so plugin utilities using theme(fontSize.small) resolve to a primitive value
+		fontSize: {
+			small: '0.875rem',
+		},
 		extend: {
 			animation: {
 				orbit: "orbit calc(var(--duration)*1s) linear infinite",
@@ -28,12 +32,6 @@ export default {
 					'50%': { backgroundPosition: '100% 50%' },
 					'100%': { backgroundPosition: '0% 50%' },
 				},
-			},
-			// Alias to support theme(fontSize.small) lookups coming from dependencies
-			fontSize: {
-				// Tailwind's default sm is 0.875rem; expose it also as "small" to fix warning:
-				// The utility `data-[has-label=true]:mt-[calc(theme(fontSize.small)_+_10px)]` contains an invalid theme value
-				small: '0.875rem',
 			},
 			screens: {
 				mdplus: "1040px",

@@ -84,7 +84,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
             isInvalid={!!errors.email}
             label="Email"
             name="email"
-            placeholder="your.email@example.com"
+            placeholder="Enter your email"
             startContent={<Icon icon="lucide:mail" />}
             type="email"
             value={formData.email}

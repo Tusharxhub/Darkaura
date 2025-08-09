@@ -7,7 +7,7 @@ import { ContactMapProps } from "../types";
 
 import { MapSkeleton } from "@/components/contact/contact-map/map-skeleton";
 
-export const ContactMap: React.FC<ContactMapProps> = ({ src, className = "" }) => {
+export const ContactMap: React.FC<ContactMapProps> = ({ src, className = "", title = "Location Map", provider = 'google' }) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [hasError, setHasError] = useState(false);
 
@@ -20,9 +20,14 @@ export const ContactMap: React.FC<ContactMapProps> = ({ src, className = "" }) =
     setIsLoaded(true);
   };
 
+  // Provider specific classes (e.g., OSM typically dark inverted filter not desired)
+  const frameClass = provider === 'osm'
+    ? "w-full h-full border-none"
+    : "w-full h-full border-none filter grayscale invert";
+
   return (
     <motion.div
-      className={`w-full h-64 md:h-96 mb-10 rounded-xl overflow-hidden relative ${className}`}
+      className={`w-full h-64 md:h-96 mb-6 rounded-xl overflow-hidden relative ${className}`}
       initial={{ opacity: 0, y: 20 }}
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       viewport={{ once: true }}
@@ -59,16 +64,17 @@ export const ContactMap: React.FC<ContactMapProps> = ({ src, className = "" }) =
           <motion.iframe
             key="map"
             allowFullScreen
-            animate={{ opacity: isLoaded ? 1 : 0 }}
-            className="w-full h-full border-none filter grayscale invert"
+            aria-label={title}
+            className={frameClass}
             initial={{ opacity: 0 }}
             loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
             src={src}
-            style={{
-              visibility: isLoaded ? "visible" : "hidden",
-            }}
-            title="Location Map"
+            style={{ visibility: isLoaded ? "visible" : "hidden" }}
+            title={title}
             transition={{ duration: 0.5, ease: "easeOut" }}
+            animate={{ opacity: isLoaded ? 1 : 0 }}
             onError={handleError}
             onLoad={handleLoad}
           />

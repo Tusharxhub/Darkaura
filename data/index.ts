@@ -457,9 +457,11 @@ export const DATA = {
     heading:
       "Have a project in mind? Get in touch and let's create something amazing.",
     location: {
-      mapSrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.017947223557!2d-122.41941508468191!3d37.774929779759245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809cbb69f3ef%3A0x4c80b42c33b6a77d!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1715701234567!5m2!1sen!2sus",
-      address: "Moyna, West Bengal, India",
+  // OpenStreetMap embed (requested). bbox defines the viewport; layer=mapnik is default style.
+  mapSrc: "https://www.openstreetmap.org/export/embed.html?bbox=88.45001578330995%2C22.735280424703028%2C88.46005797386171%2C22.741682474773338&layer=mapnik",
+  largerMapUrl: "https://www.openstreetmap.org/?#map=17/22.738481/88.455037",
+  address: "Barasat, West Bengal, India",
+      
     },
   },
   morphingTexts: {

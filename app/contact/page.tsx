@@ -105,7 +105,24 @@ const ContactPage: React.FC = () => {
       <PageHeader texts={DATA.morphingTexts.contact} />
       <div className="container mx-auto px-4">
         <ContactCard heading={DATA.contact.heading}>
-          <ContactMap src={DATA.contact.location.mapSrc} />
+          <ContactMap
+            provider="osm"
+            src={DATA.contact.location.mapSrc}
+            title={`Map location for ${DATA.contact.location.address}`}
+          />
+          <div className="mb-8 -mt-2 text-center text-sm text-default-500 space-y-1">
+            <p className="font-medium text-default-600">{DATA.contact.location.address}</p>
+            {DATA.contact.location.largerMapUrl && (
+              <a
+                className="underline hover:text-primary transition-colors"
+                href={DATA.contact.location.largerMapUrl}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                View larger map
+              </a>
+            )}
+          </div>
           <ContactForm
             isSubmitting={state.isSubmitting}
             isSuccess={state.isSuccess}

@@ -6,6 +6,10 @@ export interface ContactCardProps {
 export interface ContactMapProps {
   src: string;
   className?: string;
+  /** Optional iframe title override */
+  title?: string;
+  /** Map provider hint for styling tweaks (e.g., 'osm', 'google') */
+  provider?: 'osm' | 'google';
 }
 
 export interface ContactFormData {

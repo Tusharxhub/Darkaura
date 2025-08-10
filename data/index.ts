@@ -441,7 +441,7 @@ export const DATA = {
         id: 10,
         title: "Subscription Tracker",
         description:
-          "Backend API managing SaaS subscriptions, billing, and user accounts.",
+          "A lightweight Node.js + Express API to manage, monitor, and optimize all your subscriptions in one place.Easily track costs, set reminders, and never miss a renewal date again.",
         image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10",
         gallery: [
           "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10",
@@ -452,7 +452,7 @@ export const DATA = {
         category: "Backend Services",
         details:
           "RESTful API supporting SaaS subscription workflows with Stripe integration, usage metering, tiered pricing, webhook handling, trial periods, and analytics. Optimized for high concurrency with Redis caching.",
-        github: "https://github.com",
+        github: "https://github.com/Tusharxhub/subscription-tracker",
         tech: [
           { name: "Node.js", icon: "logos:nodejs-icon" },
           { name: "Stripe", icon: "logos:stripe" },

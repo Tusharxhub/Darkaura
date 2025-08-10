@@ -455,9 +455,9 @@ export const DATA = {
         github: "https://github.com/Tusharxhub/subscription-tracker",
         tech: [
           { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Stripe", icon: "logos:stripe" },
+          { name: "Arcjet", icon: "mdi:shield-lock" },
           { name: "MongoDB", icon: "logos:mongodb" },
-          { name: "Redis", icon: "logos:redis" },
+          { name: "OpenAI", icon: "logos:openai" },
           { name: "JWT", icon: "simple-icons:jsonwebtokens" },
         ],
       },

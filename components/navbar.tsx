@@ -44,7 +44,7 @@ export const Navigation = () => {
               href="/"
               onClick={() => setIsMenuOpen(false)}
             >
-              {DATA.home.hero.name}
+              Portfolio
             </Link>
           </motion.div>
         </NavbarBrand>

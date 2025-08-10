@@ -245,6 +245,7 @@ export const DATA = {
           { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
           { name: "TypeScript", icon: "logos:typescript-icon" },
           { name: "JavaScript", icon: "simple-icons:javascript" },
+          { name: "Vercel", icon: "simple-icons:vercel" },
         ],
       },
       {
@@ -268,6 +269,7 @@ export const DATA = {
           { name: "Appwrite", icon: "logos:appwrite" },
           { name: "TypeScript", icon: "logos:typescript-icon" },
           { name: "JavaScript", icon: "simple-icons:javascript" },
+          { name: "Vercel", icon: "simple-icons:vercel" },
         ],
       },
       {

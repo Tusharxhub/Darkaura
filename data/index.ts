@@ -1,7 +1,7 @@
 export const DATA = {
   home: {
     hero: {
-      name: "Tushar kanti Dey",
+      name: "Darkaura",
       title: "Full stack developer & UI/UX Designer",
       subtitle:
         "I build fast, accessible and visually engaging web experiences.",
@@ -476,7 +476,7 @@ export const DATA = {
     { name: "Contact", href: "/contact", icon: "lucide:send" },
   ],
   footer: {
-    name: "Tushar kanti Dey",
+    name: "Tushar Kanti Dey",
     description: "Always interested in new projects and collaborations.",
     contact: {
       email: "thetushardev0@gmail.com",

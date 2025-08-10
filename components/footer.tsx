@@ -12,7 +12,7 @@ export const Footer = () => {
   return (
     <footer className="bg-content1 py-12">
       <motion.div
-        className="container mx-auto px-4"
+  className="container-base"
         initial={{ opacity: 0, y: 40 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}

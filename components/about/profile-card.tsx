@@ -17,7 +17,9 @@ export const ProfileCard = memo(function ProfileCard({
     <Card className="w-full max-w-6xl mx-auto p-0 md:p-0 mb-12 rounded-2xl dark:shadow-neutral-700 shadow-md overflow-hidden bg-white/90 dark:bg-black/60">
       <div className="flex flex-col mdplus:flex-row items-center md:items-start gap-8">
         {/* Left image card */}
-        <div className="w-full md:w-[300px] relative h-[300px]">
+        <div
+          className="w-full relative aspect-square max-w-xs sm:max-w-sm md:w-[280px] md:h-[320px] md:aspect-auto"
+        >
           <Card isFooterBlurred className="w-full h-full">
             <Image
               alt="Profile background"

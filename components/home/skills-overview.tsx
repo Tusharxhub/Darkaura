@@ -13,7 +13,7 @@ export const SkillsOverviewSection = () => {
 
   return (
     <section className="py-20 bg-content1">
-      <div className="container mx-auto px-4">
+  <div className="container-base">
         <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 20 }}

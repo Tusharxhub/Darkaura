@@ -365,7 +365,7 @@ function HoleBackground({
       <motion.div
         animate={{ backgroundPosition: "0% 300%" }}
         className={cn(
-          "absolute top-[-71.5%] left-1/2 z-[3] w-[30%] h-[140%] rounded-b-full blur-3xl opacity-75 dark:mix-blend-plus-lighter mix-blend-plus-darker [transform:translate3d(-50%,0,0)] [background-position:0%_100%] [background-size:100%_200%]",
+          "absolute top-[-71.5%] left-1/2 z-[3] w-[70%] sm:w-[55%] md:w-[40%] lg:w-[30%] h-[120%] md:h-[140%] rounded-b-full blur-3xl opacity-60 md:opacity-75 dark:mix-blend-plus-lighter mix-blend-plus-darker [transform:translate3d(-50%,0,0)] [background-position:0%_100%] [background-size:100%_200%]",
           "dark:[background:linear-gradient(20deg,#00f8f1,#ffbd1e20_16.5%,#fe848f_33%,#fe848f20_49.5%,#00f8f1_66%,#00f8f160_85.5%,#ffbd1e_100%)_0_100%_/_100%_200%] [background:linear-gradient(20deg,#00f8f1,#ffbd1e40_16.5%,#fe848f_33%,#fe848f40_49.5%,#00f8f1_66%,#00f8f180_85.5%,#ffbd1e_100%)_0_100%_/_100%_200%]",
         )}
         transition={{ duration: 5, ease: "linear", repeat: Infinity }}

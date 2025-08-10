@@ -147,7 +147,7 @@ const ContactPage: React.FC = () => {
   return (
     <section className="py-20">
       <PageHeader texts={DATA.morphingTexts.contact} />
-      <div className="container mx-auto px-4">
+  <div className="container-base">
         <ContactCard heading={DATA.contact.heading}>
           <ContactMap
             provider="osm"

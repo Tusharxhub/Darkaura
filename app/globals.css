@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Responsive container utility */
+.container-base {
+	@apply mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-7xl;
+}
+
+/* Text balancing utility (optional future usage) */
+.text-balance {
+	text-wrap: balance;
+}
+
+/* Fluid typography */
+.text-fluid-hero {
+	font-size: clamp(2.25rem, 5vw + 0.5rem, 3.75rem); /* ~36px -> ~60px */
+	line-height: 1.1;
+}
+
+.text-fluid-page-title {
+	font-size: clamp(2rem, 4.2vw + 0.5rem, 3.5rem); /* 32px -> 56px */
+	line-height: 1.15;
+}
+
+.text-fluid-subtitle {
+	font-size: clamp(1rem, 1.4vw + 0.75rem, 1.35rem); /* ~16px -> ~21-22px */
+	line-height: 1.5;
+}

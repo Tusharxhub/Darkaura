@@ -27,7 +27,7 @@ export const TestimonialsSection = () => {
 
   return (
     <section className="py-20 bg-background bg-gradient-to-b from-background to-content2">
-      <div className="container mx-auto px-4">
+  <div className="container-base">
         <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 20 }}

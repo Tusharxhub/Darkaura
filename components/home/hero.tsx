@@ -32,7 +32,7 @@ export const HeroSection = ({
     <section className="min-h-[calc(100vh-64px)] flex items-center justify-center relative overflow-hidden bg-background">
       {showBackground && <Hole />}
       <div className="absolute inset-0 bg-gradient-to-b from-primary-500/10 to-transparent" />
-      <div className="container mx-auto px-4 z-10">
+  <div className="container-base z-10">
         <motion.div
           animate={{ opacity: 1, y: 0 }}
           className="text-center max-w-4xl mx-auto"
@@ -41,7 +41,7 @@ export const HeroSection = ({
         >
           <motion.h1
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent"
+            className="text-fluid-hero font-bold mb-6 bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent text-balance"
             initial={{ opacity: 0, y: 20 }}
             transition={{ delay: 0.2, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
@@ -51,7 +51,7 @@ export const HeroSection = ({
 
           <motion.p
             animate={{ opacity: 1, y: 0 }}
-            className="text-foreground-600 text-lg md:text-xl mb-8 leading-relaxed"
+            className="text-foreground-600 text-fluid-subtitle mb-8 leading-relaxed max-w-3xl mx-auto text-balance"
             initial={{ opacity: 0, y: 20 }}
             transition={{ delay: 0.4, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >

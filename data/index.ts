@@ -251,7 +251,7 @@ export const DATA = {
         id: 2,
         title: "Carepulse",
         description:
-          "CarePulse is a scalable healthcare management platform built for modern clinics and hospitals. Empowering healthcare with Next.js 14, Appwrite, Twilio, and Tailwind CSS.",
+          "CarePulse – A modern healthcare management platform",
         image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
         gallery: [
           "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
@@ -274,7 +274,7 @@ export const DATA = {
         id: 3,
         title: "PopcornPlay",
         description:
-          "A sleek and modern movie search app powered by TMDB API. Explore trending titles, discover new favorites, and dive into detailed movie info — all in one place.",
+          "A sleek and modern movie search app ",
         image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
         gallery: [
           "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
@@ -288,9 +288,9 @@ export const DATA = {
         github: "https://github.com/Tusharxhub/PopcornPlay",
         live: "https://popcornplay-gamma.vercel.app",
         tech: [
-          { name: "Next.js", icon: "skill-icons:nextjs-dark" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "TypeScript", icon: "logos:typescript-icon" },
+          { name: "Html", icon: "skill-icons:html" },
+          { name: "CSS", icon: "logos:css-icon" },
+          { name: "JavaScript", icon: "logos:javascript" },
         ],
       },
       {

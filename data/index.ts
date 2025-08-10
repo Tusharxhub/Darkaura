@@ -177,6 +177,7 @@ export const DATA = {
           { name: "TypeScript", icon: "logos:typescript-icon" },
           { name: "HTML5", icon: "logos:html-5" },
           { name: "CSS3", icon: "logos:css-3" },
+          { name: "GSAP", icon: "simple-icons:greensock" },
         ],
       },
       backend: {
@@ -292,7 +293,7 @@ export const DATA = {
         tech: [
           { name: "JavaScript", icon: "logos:javascript" },
           { name: "Vercel", icon: "simple-icons:vercel" },
-          { name: "Chatgpt", icon: "simple-icons:chatgpt" },
+          { name: "OpenAI", icon: "simple-icons:openai" },
         ],
       },
       {
@@ -404,9 +405,12 @@ export const DATA = {
         details:
           "A visually immersive iPhone showcase website built with Next.js and TailwindCSS, featuring fluid 3D animations powered by Three.js and GSAP. Optimized for responsiveness with a mobile-first design approach, it highlights smooth product interactions and dynamic transitions. Engineered with a modular component architecture for scalability and maintainability, ensuring a premium, Apple-like browsing experience.",
         github: "https://github.com/Tusharxhub/iphone",
-        live: "https://iphone-nine-delta.vercel.app/",
+        live: "https://iphone-nine-delta.vercel.app",
         tech: [
           { name: "React", icon: "logos:react" },
+          { name: "GSAP", icon: "simple-icons:greensock" },
+          { name: "Open AI", icon: "logos:openai" },
+          { name: "Vercel", icon: "logos:vercel" }
         ],
       },
       {

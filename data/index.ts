@@ -249,9 +249,9 @@ export const DATA = {
       },
       {
         id: 2,
-        title: "E-commerce Platform",
+        title: "Carepulse",
         description:
-          "Scalable and responsive online store with dynamic product filtering and intuitive cart management.",
+          "CarePulse is a scalable healthcare management platform built for modern clinics and hospitals. Empowering healthcare with Next.js 14, Appwrite, Twilio, and Tailwind CSS.",
         image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
         gallery: [
           "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
@@ -261,21 +261,20 @@ export const DATA = {
         ],
         category: "Web Development",
         details:
-          "A fully functional e-commerce platform built with React and TailwindCSS. Features product listings, advanced filters, cart and checkout system, and a modern UI with responsive design for all devices.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "A comprehensive healthcare management platform built with Next.js and TailwindCSS, offering seamless appointment scheduling, patient records management, and secure data handling. Enhanced with smooth UI animations via Framer Motion and integrated with Appwrite for backend services. Designed with a mobile-first, responsive layout and a scalable modular architecture powered by TypeScript.",
+        github: "https://github.com/Tusharxhub/Carepulse",
+        live: "https://carepulse-brown-omega.vercel.app",
         tech: [
-          { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
+          { name: "Appwrite", icon: "logos:appwrite" },
           { name: "TypeScript", icon: "logos:typescript-icon" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
+          { name: "JavaScript", icon: "simple-icons:javascript" },
         ],
       },
       {
         id: 3,
-        title: "Travel Booking System",
+        title: "PopcornPlay",
         description:
-          "Comprehensive booking platform for flights, hotels, and rentals with live availability.",
+          "A sleek and modern movie search app powered by TMDB API. Explore trending titles, discover new favorites, and dive into detailed movie info — all in one place.",
         image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
         gallery: [
           "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
@@ -285,9 +284,9 @@ export const DATA = {
         ],
         category: "Web Development",
         details:
-          "A modern travel booking system built with Next.js and TailwindCSS. Users can search and book flights, hotels, and car rentals with real-time availability and intuitive UI components powered by HeroUI.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "A dynamic movie streaming web app built with React and TailwindCSS, enhanced with smooth, immersive animations using Framer Motion. Powered by TypeScript and Vite for a blazing-fast, modular, and scalable architecture. Features real-time movie data fetching, responsive layouts, and an intuitive, mobile-first design for an engaging user experience.",
+        github: "https://github.com/Tusharxhub/PopcornPlay",
+        live: "https://popcornplay-gamma.vercel.app",
         tech: [
           { name: "Next.js", icon: "skill-icons:nextjs-dark" },
           { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },

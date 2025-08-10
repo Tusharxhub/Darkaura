@@ -75,11 +75,11 @@ export const DATA = {
         },
         {
           id: 5,
-          name: "Shovon Halder",
-          role: "Backend Developer",
+          name: "Dr. Debdatta Pal",
+          role: "Software Developer",
           content:
-            "Tushar’s expertise in backend architecture and data handling was crucial to our project’s success. His optimized APIs, secure database design, and adherence to best practices ensured a smooth launch while meeting all compliance requirements ahead of schedule.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=8",
+            "Working alongside Tushar was a masterclass in clean and efficient backend development. His well-structured APIs, secure database integrations, and logical problem-solving made collaboration seamless and significantly accelerated our development cycle.",
+          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=5",
         },
         {
           id: 6,
@@ -97,6 +97,14 @@ export const DATA = {
             "Tushar’s expertise in backend optimization and efficient algorithms made our data-heavy application run seamlessly, even in challenging network conditions. His ability to merge data-driven insights with practical engineering ensured the solution was both robust and user-friendly.",
           avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=7",
         },
+        {
+          id: 8,
+          name: "Shovon Halder",
+          role: "Backend Developer",
+          content:
+            "Tushar’s expertise in backend architecture and data handling was crucial to our project’s success. His optimized APIs, secure database design, and adherence to best practices ensured a smooth launch while meeting all compliance requirements ahead of schedule.",
+          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=8",
+        }
       ],
     },
   },

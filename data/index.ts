@@ -79,7 +79,7 @@ export const DATA = {
           role: "Backend Developer",
           content:
             "Tushar’s expertise in backend architecture and data handling was crucial to our project’s success. His optimized APIs, secure database design, and adherence to best practices ensured a smooth launch while meeting all compliance requirements ahead of schedule.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=5",
+          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=",
         },
         {
           id: 6,

@@ -439,7 +439,7 @@ export const DATA = {
       },
       {
         id: 10,
-        title: "SaaS Subscription API",
+        title: "Subscription Tracker",
         description:
           "Backend API managing SaaS subscriptions, billing, and user accounts.",
         image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10",

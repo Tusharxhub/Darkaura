@@ -288,8 +288,6 @@ export const DATA = {
         github: "https://github.com/Tusharxhub/PopcornPlay",
         live: "https://popcornplay-gamma.vercel.app",
         tech: [
-          { name: "Html", icon: "skill-icons:html" },
-          { name: "CSS", icon: "logos:css-icon" },
           { name: "JavaScript", icon: "logos:javascript" },
         ],
       },
@@ -388,9 +386,9 @@ export const DATA = {
       },
       {
         id: 8,
-        title: "Real Estate Dashboard",
+        title: "iPhone UI",
         description:
-          "Comprehensive dashboard to manage properties, leads, and sales pipelines effectively.",
+          "A beautiful, responsive iPhone UI inspired by Apple’s sleek and modern design.",
         image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8",
         gallery: [
           "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8",
@@ -400,13 +398,11 @@ export const DATA = {
         ],
         category: "Web Development",
         details:
-          "An admin panel tailored for real estate professionals featuring interactive data visualizations, lead tracking, and CRM system integrations to streamline client and property management.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "A visually immersive iPhone showcase website built with Next.js and TailwindCSS, featuring fluid 3D animations powered by Three.js and GSAP. Optimized for responsiveness with a mobile-first design approach, it highlights smooth product interactions and dynamic transitions. Engineered with a modular component architecture for scalability and maintainability, ensuring a premium, Apple-like browsing experience.",
+        github: "https://github.com/Tusharxhub/iphone",
+        live: "https://iphone-nine-delta.vercel.app/",
         tech: [
           { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "Chart.js", icon: "simple-icons:chartdotjs" },
         ],
       },
       {

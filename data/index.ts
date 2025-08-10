@@ -481,7 +481,7 @@ export const DATA = {
     contact: {
       email: "thetushardev0@gmail.com",
       phone: "+91 62952 89626",
-      location: "Moyna, West Bengal, India",
+      location: "Barasat, West Bengal, India",
     },
     socialLinks: [
       { platform: "X", url: "https://x.com/dey2033929837", icon: "simple-icons:x" },

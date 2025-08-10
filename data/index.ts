@@ -291,6 +291,8 @@ export const DATA = {
         live: "https://popcornplay-gamma.vercel.app",
         tech: [
           { name: "JavaScript", icon: "logos:javascript" },
+          { name: "Vercel", icon: "simple-icons:vercel" },
+          { name: "Chatgpt", icon: "simple-icons:chatgpt" },
         ],
       },
       {

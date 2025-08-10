@@ -226,9 +226,9 @@ export const DATA = {
     work: [
       {
         id: 1,
-        title: "Digital Banking App",
+        title: "Fenix",
         description:
-          "A streamlined digital banking interface emphasizing clarity, speed, and intuitive design.",
+          "A modern streamlined video calling platform.",
         image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1",
         gallery: [
           "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1",
@@ -238,14 +238,13 @@ export const DATA = {
         ],
         category: "Applications",
         details:
-          "A feature-rich digital banking app built with React and TailwindCSS, integrating seamless animations via Framer Motion. Designed with a mobile-first approach and a modular component system powered by TypeScript and Vite.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "A dynamic and visually engaging platform built with Next.js and TailwindCSS, featuring smooth, interactive animations powered by Framer Motion. Developed with a component-driven architecture and optimized for performance using TypeScript. Designed with a mobile-first approach to ensure seamless responsiveness across devices, delivering an intuitive and modern user experience.",
+        github: "https://github.com/Tusharxhub/Fenix",
+        live: "https://fenix-ecru.vercel.app",
         tech: [
-          { name: "React", icon: "logos:react" },
           { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
           { name: "TypeScript", icon: "logos:typescript-icon" },
-          { name: "Expo", icon: "simple-icons:expo" },
+          { name: "JavaScript", icon: "simple-icons:javascript" },
         ],
       },
       {

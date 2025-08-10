@@ -275,9 +275,9 @@ export const DATA = {
       },
       {
         id: 3,
-        title: "PopcornPlay",
+        title: "Chatty",
         description:
-          "A sleek and modern movie search app ",
+          "A lightning-fast, real-time chat application with an elegant UI and seamless performance.",
         image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
         gallery: [
           "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
@@ -287,12 +287,14 @@ export const DATA = {
         ],
         category: "Web Development",
         details:
-          "A dynamic movie streaming web app built with React and TailwindCSS, enhanced with smooth, immersive animations using Framer Motion. Powered by TypeScript and Vite for a blazing-fast, modular, and scalable architecture. Features real-time movie data fetching, responsive layouts, and an intuitive, mobile-first design for an engaging user experience.",
-        github: "https://github.com/Tusharxhub/PopcornPlay",
-        live: "https://popcornplay-gamma.vercel.app",
+          "A feature-rich, mobile-first real-time chat app built with React and TailwindCSS, enhanced with smooth, expressive animations using Framer Motion for blazing-fast dev feedback — designed to be easy to extend, theme, and ship.",
+        github: "https://github.com/Tusharxhub/Chatty",
+        live: "https://chatty-liart.vercel.app",
         tech: [
           { name: "JavaScript", icon: "logos:javascript" },
           { name: "Vercel", icon: "simple-icons:vercel" },
+          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
+          { name: "web socket", icon: "logos:websocket" },
           { name: "OpenAI", icon: "simple-icons:openai" },
         ],
       },
@@ -415,9 +417,9 @@ export const DATA = {
       },
       {
         id: 9,
-        title: "Crypto Wallet API",
+        title: "PopcornPlay",
         description:
-          "Robust backend API for secure cryptocurrency operations and blockchain interactions.",
+          "A sleek and modern movie search app ",
         image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9",
         gallery: [
           "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9",
@@ -427,14 +429,12 @@ export const DATA = {
         ],
         category: "Backend Services",
         details:
-          "Secure Node.js API supporting Ethereum and Bitcoin transactions. Features transaction signing, wallet address creation, and real-time blockchain event monitoring using Web3.js. Enhanced with hardware security module (HSM) integration for secure key management.",
-        github: "https://github.com",
+          "A sleek and modern movie search app powered by TMDB API. Explore trending titles, discover new favorites, and dive into detailed movie info — all in one place.",
+        github: "https://github.com/Tusharxhub/PopcornPlay",
         tech: [
           { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Ethereum", icon: "logos:ethereum" },
-          { name: "Web3.js", icon: "simple-icons:web3dotjs" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
+          { name: "Vercel", icon: "logos:vercel" },
+          { name: "OpenAI", icon: "logos:openai" },
         ],
       },
       {

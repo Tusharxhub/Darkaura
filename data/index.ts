@@ -456,7 +456,7 @@ export const DATA = {
         tech: [
           { name: "Node.js", icon: "logos:nodejs-icon" },
           { name: "Stripe", icon: "logos:stripe" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
+          { name: "MongoDB", icon: "logos:mongodb" },
           { name: "Redis", icon: "logos:redis" },
           { name: "JWT", icon: "simple-icons:jsonwebtokens" },
         ],

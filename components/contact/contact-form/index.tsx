@@ -66,6 +66,12 @@ export const ContactForm: React.FC<ContactFormProps> = ({
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Input
             isRequired
+            classNames={{
+              // Remove extra outer focus ring/outline creating a double rectangle
+              input: "focus:outline-none",
+              inputWrapper:
+                "focus-within:!outline-none focus-within:!ring-0 focus-within:!shadow-none data-[focus=true]:!outline-none data-[focus=true]:!ring-0 data-[focus=true]:!shadow-none",
+            }}
             errorMessage={errors.name}
             isInvalid={!!errors.name}
             label="Name"
@@ -80,6 +86,11 @@ export const ContactForm: React.FC<ContactFormProps> = ({
 
           <Input
             isRequired
+            classNames={{
+              input: "focus:outline-none",
+              inputWrapper:
+                "focus-within:!outline-none focus-within:!ring-0 focus-within:!shadow-none data-[focus=true]:!outline-none data-[focus=true]:!ring-0 data-[focus=true]:!shadow-none",
+            }}
             errorMessage={errors.email}
             isInvalid={!!errors.email}
             label="Email"
@@ -96,6 +107,11 @@ export const ContactForm: React.FC<ContactFormProps> = ({
 
         <Input
           isRequired
+          classNames={{
+            input: "focus:outline-none",
+            inputWrapper:
+              "focus-within:!outline-none focus-within:!ring-0 focus-within:!shadow-none data-[focus=true]:!outline-none data-[focus=true]:!ring-0 data-[focus=true]:!shadow-none",
+          }}
           errorMessage={errors.subject}
           isInvalid={!!errors.subject}
           label="Subject"
@@ -110,6 +126,11 @@ export const ContactForm: React.FC<ContactFormProps> = ({
 
         <Textarea
           isRequired
+          classNames={{
+            input: "focus:outline-none",
+            inputWrapper:
+              "focus-within:!outline-none focus-within:!ring-0 focus-within:!shadow-none data-[focus=true]:!outline-none data-[focus=true]:!ring-0 data-[focus=true]:!shadow-none",
+          }}
           errorMessage={errors.message}
           isInvalid={!!errors.message}
           label="Message"

@@ -318,7 +318,6 @@ export const DATA = {
         tech: [
           { name: "React", icon: "logos:react" },
           { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          
           { name: "Gemini Api", icon: "simple-icons:googlegemini" },
           { name: "Vercel", icon: "simple-icons:vercel" },
         ],
